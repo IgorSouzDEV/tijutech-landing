@@ -1,18 +1,42 @@
-# React + Vite
+# 📱 TijuTech – Acessórios Mobile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page moderna e responsiva para a **TijuTech**, loja especializada em acessórios para smartphones e peças de reposição no Rio de Janeiro.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen?style=for-the-badge&logo=vercel)](https://tijutech-landing.vercel.app)
+[![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Recursos
 
-## React Compiler
+- Design **mobile-first** com layout responsivo total
+- Animações suaves ao rolar a página (scroll reveal)
+- Menu hamburguer funcional com **fechamento ao clicar fora**
+- Integração direta com **WhatsApp** (link pré-preenchido)
+- Mapa interativo da loja com **OpenStreetMap** (sem custo)
+- Otimização de imagens em **WebP** para carregamento rápido
+- Acessibilidade e semântica HTML
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠 Tecnologias Utilizadas
 
-Note: This will impact Vite dev & build performances.
+- **Frontend**: React + Vite
+- **Estilização**: Tailwind CSS
+- **Ícones**: React Icons
+- **Mapa**: Leaflet + OpenStreetMap
+- **Deploy**: Vercel
 
-## Expanding the ESLint configuration
+## 🚀 Visualizar Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acesse a versão ao vivo:  
+👉 [https://tijutech-landing.vercel.app](https://tijutech-landing.vercel.app)
+
+## 📸 Prévia
+
+![Preview da landing page TijuTech](public/images/preview.jpg)
+
+
+## 📥 Como rodar localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/IgorSouzDEV/tijutech-landing.git
+   cd tijutech-landing
