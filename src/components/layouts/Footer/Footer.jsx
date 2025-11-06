@@ -1,8 +1,10 @@
+import logo from "../../../assets/images/logo_tijutech.png";
+
 export default function Footer() {
     return (
         <footer className="bg-gray-800 text-white py-6 mt-20 flex flex-col md:flex-row items-center justify-between">
             <div className="mb-10 md:mb-0">
-                <img src="./src/assets/images/logo_tijutech.png" alt="Logo Tijutech" className="w-45"/>
+                <img src={logo} alt="Logo Tijutech" className="w-45"/>
             </div>
             <div className="mr-0 md:mr-10 text-center md:text-end">
                 <p>&copy; {new Date().getFullYear()} TijuTech. Todos os direitos reservados.</p>

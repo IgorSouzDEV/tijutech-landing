@@ -2,6 +2,14 @@ import useOnScreen from "../../hooks/useOnScreen";
 import { useEffect, useState } from "react";
 import ProductCard from "../ui/ProductCard";
 
+import capasImg from "../../assets/images/card-image-1.webp";
+import carregadoresImg from "../../assets/images/card-image-2.webp";
+import fonesImg from "../../assets/images/card-image-3.webp";
+import peliculasImg from "../../assets/images/card-image-4.webp";
+import pecasImg from "../../assets/images/card-image-5.webp";
+import powerBanksImg from "../../assets/images/card-image-6.webp";
+
+
 function AnimatedItem({ children, delay = 0 }) {
   const [ref, isVisible] = useOnScreen({ threshold: 0.1 });
   const [hasBeenVisible, setHasBeenVisible] = useState(false);
@@ -37,7 +45,7 @@ export default function ProductsGallery() {
           <h2 className="text-gray-800 text-4xl md:text-6xl font-bold mb-4">
             Nossos produtos
           </h2>
-          <span className="text-gray-600 text-1xl md:text-2xl font-extralight">
+          <span className="text-gray-600 text-xl md:text-lg font-extralight">
             Produtos de qualidade para todos os modelos e marcas
           </span>
         </AnimatedItem>
@@ -46,7 +54,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
           <ProductCard
             title={"Peças de Reposição"}
-            image={"./src/assets/images/card-image-5.webp"}
+            image={pecasImg}
             description={
               "Peças de reposição para manter seu dispositivo funcionando como novo."
             }
@@ -55,7 +63,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
           <ProductCard
             title={"Capas Protetoras"}
-            image={"./src/assets/images/card-image-1.webp"}
+            image={capasImg}
             description={
               "Capas protetoras resistentes e elegantes para manter seu dispositivo seguro."
             }
@@ -64,7 +72,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
           <ProductCard
             title={"Carregadores"}
-            image={"./src/assets/images/card-image-2.webp"}
+            image={carregadoresImg}
             description={
               "Carregadores de alta qualidade para carregar seu smartphone com conforto."
             }
@@ -73,7 +81,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
           <ProductCard
             title={"Fones de Ouvido"}
-            image={"./src/assets/images/card-image-3.webp"}
+            image={fonesImg}
             description={
               "Fones de ouvido de alta qualidade para uma experiência sonora imersiva."
             }
@@ -82,7 +90,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
           <ProductCard
             title={"Películas de Tela"}
-            image={"./src/assets/images/card-image-4.webp"}
+            image={peliculasImg}
             description={
               "Películas de tela duráveis que protegem contra arranhões e impactos."
             }
@@ -91,7 +99,7 @@ export default function ProductsGallery() {
         <AnimatedItem delay={300}>
         <ProductCard
           title={"Power Banks"}
-          image={"./src/assets/images/card-image-6.webp"}
+          image={powerBanksImg}
           description={
             "Power banks de alta qualidade para complementar seu smartphone."
           }
