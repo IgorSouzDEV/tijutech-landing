@@ -29,11 +29,6 @@ Landing page moderna e responsiva para a **TijuTech**, loja especializada em ace
 Acesse a versão ao vivo:  
 👉 [https://tijutech-landing.vercel.app](https://tijutech-landing.vercel.app)
 
-## 📸 Prévia
-
-![Preview da landing page TijuTech](public/images/preview.jpg)
-
-
 ## 📥 Como rodar localmente
 
 1. Clone o repositório:
